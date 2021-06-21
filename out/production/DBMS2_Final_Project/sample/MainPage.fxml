@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="1800.0" style="-fx-background-color: #d2d4d2;" BorderPane.alignment="CENTER">
+         <children>
+            <MenuButton mnemonicParsing="false" text="Кентау">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </MenuButton>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" text="Басты бет">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="1000.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="1105.0" layoutY="26.0" mnemonicParsing="false" text="Біз туралы">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="1160.0" layoutY="26.0" mnemonicParsing="false" text="Байланысу">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-image: url('file:C:/Users/msait/Desktop/DBMS2_Final_Project/src/images/Kentau-cover.jpg'); -fx-background-repeat: no-repeat; -fx-background-size: cover;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

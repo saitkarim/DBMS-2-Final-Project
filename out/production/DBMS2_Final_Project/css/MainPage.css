@@ -1,0 +1,16 @@
+.button{
+    -fx-background-color: #3a3b3a;
+    -fx-border: white;
+    -fx-color: white;
+    padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    display: inline-block;
+    -fx-font-size: 16px;
+}
+
+.think_photo{
+    -fx-background-image:url('file:C:/Users/msait/Desktop/DBMS2_Final_Project/images/choose_laptop.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="63.0" prefHeight="560.0" prefWidth="1008.0" style="-fx-background-repeat: no-repeat; -fx-background-size: 100%; -fx-background-color: #73a9ff;">
+         <children>
+            <Pane layoutX="-1.0" layoutY="-1.0" prefHeight="560.0" prefWidth="1015.0" styleClass="think_photo" stylesheets="@../css/MainPage.css">
+               <children>
+                  <Text fill="#40c263" fontSmoothingType="LCD" layoutX="49.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Біз сізге көмектесеміз!" textAlignment="CENTER" wrappingWidth="193.2878875732422">
+                     <font>
+                        <Font name="Times New Roman" size="30.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#5c6271" fontSmoothingType="LCD" layoutX="347.0" layoutY="165.0" rotate="13.0" scaleX="1.2" strokeType="OUTSIDE" strokeWidth="0.0" text="Қандай ноутбук таңдарыңызды білмей жүрсіз бе?" textAlignment="CENTER" wrappingWidth="193.2878875732422">
+                     <font>
+                        <Font name="Times New Roman" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children></AnchorPane>
+      <fx:include layoutY="3.0" source="ManuTab.fxml" />
+   </children>
+</AnchorPane>

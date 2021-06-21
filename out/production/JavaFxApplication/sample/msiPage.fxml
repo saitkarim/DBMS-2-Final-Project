@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MSIController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="63.0" prefHeight="560.0" prefWidth="1008.0" styleClass="bcimage" stylesheets="@../css/style.css">
+         <children>
+            <TableView fx:id="laptops_table" layoutX="45.0" layoutY="96.0" prefHeight="418.0" prefWidth="917.0">
+              <columns>
+                <TableColumn fx:id="column_brand" prefWidth="99.19997787475586" text="Бренд" />
+                <TableColumn fx:id="column_laptop_name" prefWidth="128.8000030517578" text="Ноутбук атауы" />
+                  <TableColumn fx:id="column_display_size" minWidth="0.0" prefWidth="54.4000244140625" text="Өлшемі" />
+                  <TableColumn fx:id="column_processor_type" prefWidth="192.0" text="Поцессор түрі" />
+                  <TableColumn fx:id="column_graphics_card" prefWidth="208.800048828125" text="Гафикалық карта" />
+                  <TableColumn fx:id="column_disk_space" prefWidth="234.39996337890625" text="Дискілік кеңістік" />
+              </columns>
+            </TableView>
+            <ImageView fx:id="acer_icon" fitHeight="107.0" fitWidth="99.0" layoutX="32.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/msi_icon.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="searchField" layoutX="217.0" layoutY="41.0" prefHeight="26.0" prefWidth="306.0" promptText="Іздеу" />
+         </children>
+      </AnchorPane>
+      <fx:include layoutY="3.0" source="ManuTab.fxml" />
+   </children>
+</AnchorPane>
